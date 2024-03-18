@@ -1,4 +1,6 @@
 /* Reset default margin, padding, and box-sizing */
+
+/* Reset default margin, padding, and box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +47,7 @@ body {
 
 /* Hero section styles */
 #hero {
-  background-image: url('https://example.com/your-background-image.jpg'); /* Replace 'https://example.com/your-background-image.jpg' with the URL of your background image */
+  background-image: url('https://via.placeholder.com/1500x600'); /* Placeholder image */
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -86,3 +88,4 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+

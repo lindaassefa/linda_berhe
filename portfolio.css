@@ -1,0 +1,88 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #333;
+  padding: 20px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.nav-links a:hover {
+  color: #ccc;
+}
+
+/* Hero section styles */
+#hero {
+  background-image: url('https://via.placeholder.com/1500x600');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+#hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.contact-info li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Other section styles */
+section {
+  padding: 80px 0;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}

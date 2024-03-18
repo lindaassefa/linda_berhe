@@ -4,25 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linda Assefa Berhe - Portfolio</title>
-  <link rel="stylesheet" href="portfolio.css">
   <style>
+    /* Reset default margin, padding, and box-sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f5f5f5;
     }
-    /* Add styles for sections, navbar, footer, etc. */
-    /* For demonstration purposes, let's add a background image to the hero section */
+
+    /* Navigation bar styles */
+    .navbar {
+      background-color: red; /* Red navigation bar */
+      padding: 20px 0;
+    }
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      color: black; /* Black logo text */
+      font-size: 1.5rem;
+    }
+    .nav-links li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .nav-links a {
+      color: black; /* Black navigation text */
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .nav-links a:hover {
+      color: #ccc;
+    }
+
+    /* Hero section styles */
     #hero {
-      background-image: url('sample-background.jpg'); /* Change 'sample-background.jpg' to the actual path of your image */
+      background-image: url('sample-background.jpg'); /* Placeholder image */
       background-size: cover;
       color: white;
       text-align: center;
       padding: 100px 0;
     }
-    /* Add other styles as needed */
-    /* Add space between project tiles */
+    #hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Project styles */
     .project {
       margin-bottom: 40px;
       background-color: #fff;
@@ -31,8 +69,10 @@
       padding: 20px;
     }
     .project h3 {
-      color: #333;
+      color: #333; /* Dark gray text color */
     }
+
+    /* Contact section styles */
     .contact-info {
       list-style: none;
       padding: 0;
@@ -41,12 +81,14 @@
       margin-bottom: 10px;
     }
     .contact-info a {
-      color: #007bff;
+      color: #007bff; /* Blue link color */
       text-decoration: none;
     }
     .contact-info a:hover {
       text-decoration: underline;
     }
+
+    /* Footer styles */
     footer {
       background-color: #333;
       color: #fff;
@@ -89,7 +131,7 @@
     <h2>About Me</h2>
     <p>As a computer science major with a pre-engineering track, I'm driven by a passion for data structures, algorithms, and the transformative potential of artificial intelligence (AI) and machine learning. Beyond classroom learning, I actively seek hands-on projects to deepen my understanding and explore real-world applications.
 
-My fascination lies in optimizing software efficiency through intricate algorithms and delving into AI's potential to revolutionize industries. With a focus on data structures, algorithms, and AI, I'm poised to tackle complex challenges, leveraging technology to drive innovation and create meaningful impact.</p>
+    My fascination lies in optimizing software efficiency through intricate algorithms and delving into AI's potential to revolutionize industries. With a focus on data structures, algorithms, and AI, I'm poised to tackle complex challenges, leveraging technology to drive innovation and create meaningful impact.</p>
   </div>
 </section>
 
@@ -133,4 +175,12 @@ My fascination lies in optimizing software efficiency through intricate algorith
   </div>
 </section>
 
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Linda Assefa Berhe. All rights reserved.</p>
+  </div>
+</footer>
 
+</body>
+</html>

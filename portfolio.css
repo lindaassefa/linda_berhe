@@ -1,6 +1,4 @@
 /* Reset default margin, padding, and box-sizing */
-
-/* Reset default margin, padding, and box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +8,8 @@
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 
 /* Navigation bar styles */
 .navbar {
-  background-color: #333;
+  background-color: #343a40; /* Dark gray navbar background */
   padding: 20px 0;
 }
 .navbar .container {
@@ -42,7 +42,7 @@ body {
   font-size: 1rem;
 }
 .nav-links a:hover {
-  color: #ccc;
+  color: #ccc; /* Light gray hover color */
 }
 
 /* Hero section styles */
@@ -83,9 +83,8 @@ section h2 {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  background-color: #343a40; /* Dark gray footer background */
   color: #fff;
   text-align: center;
   padding: 20px 0;
 }
-

@@ -49,21 +49,37 @@
 
     /* Hero section styles */
     #hero {
-      background-image: url('download.jpg'); /* Image background */
+      background-image: url('download.jpg'); /* Background image */
       background-size: cover;
       color: white;
       text-align: center;
-      padding: 100px 0;
+      padding: 80px 0; /* Adjusted padding */
     }
     #hero h1 {
       font-size: 3.5rem;
       margin-bottom: 20px;
     }
 
+    /* Project styles */
+    .project {
+      margin-bottom: 40px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .project h3 {
+      color: #333; /* Dark gray text color */
+    }
+
     /* Contact section styles */
+    #contact {
+      padding: 40px 0; /* Adjusted padding */
+    }
     .contact-info {
       list-style: none;
       padding: 0;
+      margin-top: 10px; /* Reduced margin */
     }
     .contact-info li {
       margin-bottom: 10px;
@@ -106,6 +122,44 @@
 <section id="hero">
   <div class="container">
     <h1>Computer Science|Class of 2025</h1>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>As a computer science major with a pre-engineering track, I'm driven by a passion for data structures, algorithms, and the transformative potential of artificial intelligence (AI) and machine learning. Beyond classroom learning, I actively seek hands-on projects to deepen my understanding and explore real-world applications.
+
+    My fascination lies in optimizing software efficiency through intricate algorithms and delving into AI's potential to revolutionize industries. With a focus on data structures, algorithms, and AI, I'm poised to tackle complex challenges, leveraging technology to drive innovation and create meaningful impact.</p>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <!-- Project 1: Real Estate Listing Platform -->
+    <div class="project">
+      <h3>Real Estate Listing Platform</h3>
+      <p>Node.js, MongoDB, Express, JavaScript, HTML, CSS</p>
+      <ul>
+        <li>Developed a Node.js-based full-stack application for real estate browsing and booking.</li>
+        <li>Implemented a RESTful API with Express, MongoDB, and Mongoose for efficient data management.</li>
+        <li>Integrated Stripe for secure online payments and SendGrid API for automated email communications.</li>
+        <li>Designed a responsive UI with HTML and CSS for enhanced user experience.</li>
+      </ul>
+    </div>
+    <!-- Project 2: Natural Language Processing - Email Spam Filter -->
+    <div class="project">
+      <h3>Natural Language Processing - Email Spam Filter</h3>
+      <p>Node.js, Python, NLTK, TensorFlow Anaconda</p>
+      <ul>
+        <li>Implemented a Natural Language Processing (NLP) based email spam filter using TensorFlow and Python.</li>
+        <li>Ensured data security measures including encryption techniques to safeguard user information.</li>
+        <li>Working on intuitive controls and notifications for users to manage their spam filter preferences effectively.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
